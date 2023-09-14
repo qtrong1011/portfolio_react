@@ -14,13 +14,16 @@ const Navbar = () => {
         <div
             className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#435334] text-white'>
             <div>
-                <img
-                    src={Logo}
-                    alt='Logo Image'
-                    style={{
-                        width: '200px',
-                        marginLeft: '-50px'
-                    }}></img>
+                <a href='/'>
+                    <img
+                        src={Logo}
+                        alt='Logo Image'
+                        style={{
+                            width: '200px',
+                            marginLeft: '-50px'
+                        }}></img>
+                </a>
+                
             </div>
             {/* Menu */}
 
