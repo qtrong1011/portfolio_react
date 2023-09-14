@@ -14,7 +14,7 @@ const Navbar = () => {
         <div
             className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#435334] text-white'>
             <div>
-                <a href='/'>
+                <Link to='home' smooth={true} duration={500} className='hover:cursor-pointer'>
                     <img
                         src={Logo}
                         alt='Logo Image'
@@ -22,7 +22,7 @@ const Navbar = () => {
                             width: '200px',
                             marginLeft: '-50px'
                         }}></img>
-                </a>
+                </Link>
                 
             </div>
             {/* Menu */}
