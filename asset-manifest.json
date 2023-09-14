@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio_react/static/css/main.6bcb77dd.css",
-    "main.js": "/portfolio_react/static/js/main.82428879.js",
-    "static/media/realestate.jpg": "/portfolio_react/static/media/realestate.44fd19f4c6872731149c.jpg",
+    "main.css": "/portfolio_react/static/css/main.83958804.css",
+    "main.js": "/portfolio_react/static/js/main.7f78201d.js",
+    "static/media/my-pic.png": "/portfolio_react/static/media/my-pic.9b630210c30af9d8ef18.png",
     "static/media/weather-bg.jpg": "/portfolio_react/static/media/weather-bg.544d951a1f4e5973aeb1.jpg",
-    "static/media/workImg.jpeg": "/portfolio_react/static/media/workImg.e4c66be6ae2ae4f83608.jpeg",
     "static/media/react.png": "/portfolio_react/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/portfolio_react/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/mongo.png": "/portfolio_react/static/media/mongo.2a1528ddc31d4ce8518d.png",
@@ -14,11 +13,11 @@
     "static/media/javascript.png": "/portfolio_react/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/power_logo.webp": "/portfolio_react/static/media/power_logo.10832046a4d3fcffb19e.webp",
     "index.html": "/portfolio_react/index.html",
-    "main.6bcb77dd.css.map": "/portfolio_react/static/css/main.6bcb77dd.css.map",
-    "main.82428879.js.map": "/portfolio_react/static/js/main.82428879.js.map"
+    "main.83958804.css.map": "/portfolio_react/static/css/main.83958804.css.map",
+    "main.7f78201d.js.map": "/portfolio_react/static/js/main.7f78201d.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bcb77dd.css",
-    "static/js/main.82428879.js"
+    "static/css/main.83958804.css",
+    "static/js/main.7f78201d.js"
   ]
 }
