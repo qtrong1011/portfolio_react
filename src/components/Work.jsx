@@ -1,7 +1,7 @@
 import React from 'react'
 import WeatherImg from '../assets/weather-bg.jpg'
-import realEstate from '../assets/realestate.jpg'
-import WorkImg from '../assets/workImg.jpeg'
+
+
 
 const Work = ({ref}) => {
     return (

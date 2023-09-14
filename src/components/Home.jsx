@@ -2,13 +2,14 @@ import React from 'react'
 import {HiArrowNarrowRight, HiArrowNarrowDown} from 'react-icons/hi'
 import {useState} from 'react'
 import {Link} from 'react-scroll'
+import MyPic from '../assets/my-pic.png'
 
 const Home = () => {
     const [arrowRight, setArrowRight] = useState(true)
     const handleHover = () => setArrowRight(!arrowRight)
 
     return (
-        <div name='home' className='w-full h-screen bg-[#435334]'>
+        <div name='home' className='w-full h-screen bg-[#435334] flex'>
             {/* Container */}
             <div
                 className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
@@ -45,6 +46,13 @@ const Home = () => {
 
                 </div>
 
+            </div>
+            <div>
+                <img src={MyPic} alt='not loading ' className='max-w-[1000px] mx-auto my-[250px] px-6' style={
+                    {
+                        width : '200px'
+                    }
+                }></img>
             </div>
 
         </div>
