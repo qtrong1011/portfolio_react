@@ -1,7 +1,7 @@
 import React from 'react'
 import HTML from '../assets/html.png'
 import Tailwind from '../assets/tailwind.png'
-import Git from '../assets/github.png'
+import Python from '../assets/python.png'
 import JS from '../assets/javascript.png'
 import Node from '../assets/node.png'
 import reactJS from '../assets/react.png'
@@ -52,8 +52,8 @@ const Skills = () => {
                     <p className='my-4'>MongoDB</p>
                 </div>
                 <div className= 'shadow-sm shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto py-1' src={Git} alt='GitHub icon'></img>
-                    <p className='my-4'>Github</p>
+                    <img className='w-20 mx-auto py-1' src={Python} alt='Python icon'></img>
+                    <p className='my-4'>Python</p>
                 </div>
             </div>
         </div>

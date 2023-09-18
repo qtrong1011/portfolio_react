@@ -12,12 +12,12 @@ const Navbar = () => {
 
     return (
         <div
-            className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#435334] text-white'>
+            className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#435334] text-white shadow-md'>
             <div>
                 <Link to='home' smooth={true} duration={500} className='hover:cursor-pointer'>
                     <img
                         src={Logo}
-                        alt='Logo Image'
+                        alt='Logo'
                         style={{
                             width: '200px',
                             marginLeft: '-50px'
@@ -100,12 +100,12 @@ const Navbar = () => {
                 <ul>
                     <li
                         className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 '>
-                        <a className='flex justify-between items-center w-full text-[#FAF1E4]' href='/'>Linkedin
+                        <a className='flex justify-between items-center w-full text-[#FAF1E4]' href='https://linkedin.com/in/trong-luu' target='_blank' rel="noreferrer">Linkedin
                             <FaLinkedin size={30}/></a>
                     </li>
                     <li
                         className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333] '>
-                        <a className='flex justify-between items-center w-full text-[#FAF1E4]' href='/'>Github
+                        <a className='flex justify-between items-center w-full text-[#FAF1E4]' href='https://github.com/qtrong1011' target='_blank' rel='noreferrer'>Github
                             <FaGithub size={30}/></a>
                     </li>
                     <li
