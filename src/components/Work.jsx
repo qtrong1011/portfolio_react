@@ -1,5 +1,5 @@
 import React from 'react'
-import WeatherImg from '../assets/weather-bg.jpg'
+import WeatherImg from '../assets/weather-bg.jpeg'
 import ChatImg from '../assets/chat-bg.jpg'
 
 
