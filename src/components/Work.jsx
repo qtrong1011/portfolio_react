@@ -1,6 +1,7 @@
 import React from 'react'
 import WeatherImg from '../assets/weather-bg.jpeg'
 import ChatImg from '../assets/chat-bg.jpg'
+import Pho5thImg from '../assets/phofifthavenue.png'
 
 
 
@@ -20,25 +21,28 @@ const Work = ({ref}) => {
                 </div>
                 {/* Container */}
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-                    {/* Grid Items */}
+                    {/* Grid Items */}  
                     <div
                         style={{
-                            backgroundImage: `url(${WeatherImg})`
+                            backgroundImage: `url(${Pho5thImg})`
                         }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                Weather Application
-                            </span>
-                            <p className='text-[#d3d3d3] text-center italic font-light'>ReactJS + NodeJS</p>
+                            <div className='text-center'>
+                                <span className='text-2xl font-bold text-white tracking-wider'>
+                                    Restaurant Menu
+                                </span>
+                                <p className='text-[#d3d3d3] text-center italic font-light'>Single-page ReactJS with React Router</p>
+                            </div>
+                            
                             <div className='pt-8 text-center'>
-                                <a href='https://qtrong1011.github.io/weather-app-UI/' target='_blank' rel="noopener noreferrer">
+                                <a href='https://qtrong1011.github.io/pho5th_menu/' target='_blank' rel="noopener noreferrer">
                                     <button
                                         className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href='https://github.com/qtrong1011/weather-app-UI' target='_blank' rel="noopener noreferrer" >
+                                <a href='https://github.com/qtrong1011/pho5th_menu'target='_blank' rel="noopener noreferrer">
                                     <button
                                         className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
@@ -54,11 +58,14 @@ const Work = ({ref}) => {
                         
                         {/* Hover Effect */}
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                Chat Room Application
+                            <div className='text-center'>
+                                <span className='text-2xl font-bold text-white tracking-wider'>
+                                    Chat Room Application
 
-                            </span>
-                            <p className='text-[#d3d3d3] text-center italic font-light'>NodeJS with SocketIO</p>
+                                </span>
+                                <p className='text-[#d3d3d3] text-center italic font-light'>NodeJS with SocketIO</p>
+                            </div>
+                            
                             <div className='pt-8 text-center'>
                                 <a href='https://luu-node-v1-chat-app-e4d54bbed24e.herokuapp.com/' target='_blank' rel="noopener noreferrer" >
                                     <button
@@ -71,32 +78,35 @@ const Work = ({ref}) => {
                             </div>
                         </div>
 
-                    </div> 
-                    {/* <div
+                    </div>
+                    <div
                         style={{
-                            backgroundImage: `url(${WorkImg})`
+                            backgroundImage: `url(${WeatherImg})`
                         }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
-                        Hover Effects
+                        {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                React JS Application
-
-                            </span>
+                            <div className='text-center'>
+                                <span className='text-2xl font-bold text-white tracking-wider'>
+                                    Weather Application
+                                </span>
+                                <p className='text-[#d3d3d3] text-center italic font-light'>ReactJS + NodeJS</p>    
+                            </div>
+                            
                             <div className='pt-8 text-center'>
-                                <a href='/'>
+                                <a href='https://qtrong1011.github.io/weather-app-UI/' target='_blank' rel="noopener noreferrer">
                                     <button
                                         className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href='/'>
+                                <a href='https://github.com/qtrong1011/weather-app-UI' target='_blank' rel="noopener noreferrer" >
                                     <button
                                         className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
                         </div>
 
-                    </div> */}
+                    </div>
                     {/* <div
                         style={{
                             backgroundImage: `url(${realEstate})`
