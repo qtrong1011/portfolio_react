@@ -55,14 +55,33 @@ const Navbar = () => {
                 </li>
             </ul>
 
-            {/* Hambuger */}
-            <div onClick={handleClick} className='md:hidden z-10 hover:cursor-pointer'>
-                {
-                    !nav
-                        ? <FaBars/>
-                        : <FaTimes/>
-                }
+            {/* Hambuger and Social Icons */}
+            <div className='md:hidden z-10 '>
+                <ul className='flex flex-row-reverse justify-between'>
+                    <li>
+                                    <div onClick={handleClick} className='hover:cursor-pointer'>
+                            {
+                                !nav
+                                    ? <FaBars size={25}/>
+                                    : <FaTimes size={25}/>
+                            }
+                        </div>  
+                    </li>
+                    <li>
+                        <a href='https://linkedin.com/in/trong-luu' target='_blank' rel='noreferrer'><FaLinkedin size={25}/></a>
+                    </li>
+                    <li>
+                        <a href='https://github.com/qtrong1011' target='_blank' rel='noreferrer'><FaGithub size={25}/></a>
+                    </li>
+                    <li>
+                        <a href='https://drive.google.com/file/d/1mmt2Qdtog9kFlMdX-l5hJQFmzfPZ7vDn/view?usp=drive_link' target='_blank' rel='noreferrer'><HiOutlineUserCircle size={25}/></a>
+                    </li>
+
+
+                </ul>
+             
             </div>
+            
             {/* Mobile Menu */}
             <ul
                 className={!nav
@@ -108,14 +127,14 @@ const Navbar = () => {
                         <a className='flex justify-between items-center w-full text-[#FAF1E4]' href='https://github.com/qtrong1011' target='_blank' rel='noreferrer'>Github
                             <FaGithub size={30}/></a>
                     </li>
-                    <li
+                    {/* <li
                         className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0] '>
                         <a className='flex justify-between items-center w-full text-[#FAF1E4]' href='/'>Email
                             <FiMail size={30}/></a>
-                    </li>
+                    </li> */}
                     <li
                         className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69] '>
-                        <a className='flex justify-between items-center w-full text-[#FAF1E4]' href='/'>Resume
+                        <a className='flex justify-between items-center w-full text-[#FAF1E4]' href='https://drive.google.com/file/d/1mmt2Qdtog9kFlMdX-l5hJQFmzfPZ7vDn/view?usp=drive_link' target='_blank' rel='noreferrer'>Resume
                             <HiOutlineUserCircle size={30}/></a>
                     </li>
                 </ul>
