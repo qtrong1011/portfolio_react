@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio_react/static/css/main.0b241908.css",
-    "main.js": "/portfolio_react/static/js/main.5637be42.js",
+    "main.css": "/portfolio_react/static/css/main.8f47957b.css",
+    "main.js": "/portfolio_react/static/js/main.beb8d0ea.js",
     "static/media/my-pic.png": "/portfolio_react/static/media/my-pic.9b630210c30af9d8ef18.png",
     "static/media/chat-bg.jpg": "/portfolio_react/static/media/chat-bg.54b76b9e9782ab48d673.jpg",
+    "static/media/phofifthavenue.png": "/portfolio_react/static/media/phofifthavenue.3958bd63b8036e8c945d.png",
     "static/media/weather-bg.jpeg": "/portfolio_react/static/media/weather-bg.6f5fd51ee33318de129f.jpeg",
     "static/media/react.png": "/portfolio_react/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/portfolio_react/static/media/node.952a9ea986dcfa5229ad.png",
@@ -13,11 +14,11 @@
     "static/media/javascript.png": "/portfolio_react/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/power_logo.webp": "/portfolio_react/static/media/power_logo.10832046a4d3fcffb19e.webp",
     "index.html": "/portfolio_react/index.html",
-    "main.0b241908.css.map": "/portfolio_react/static/css/main.0b241908.css.map",
-    "main.5637be42.js.map": "/portfolio_react/static/js/main.5637be42.js.map"
+    "main.8f47957b.css.map": "/portfolio_react/static/css/main.8f47957b.css.map",
+    "main.beb8d0ea.js.map": "/portfolio_react/static/js/main.beb8d0ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b241908.css",
-    "static/js/main.5637be42.js"
+    "static/css/main.8f47957b.css",
+    "static/js/main.beb8d0ea.js"
   ]
 }
