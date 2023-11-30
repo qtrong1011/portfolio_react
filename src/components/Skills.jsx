@@ -5,7 +5,6 @@ import Python from '../assets/python.png'
 import JS from '../assets/javascript.png'
 import Node from '../assets/node.png'
 import reactJS from '../assets/react.png'
-import Power from '../assets/power_logo.webp'
 import MongoDB from '../assets/mongo.png'
 import WordPress from '../assets/wordpress.png'
 
