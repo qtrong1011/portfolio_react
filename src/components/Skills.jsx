@@ -7,6 +7,7 @@ import Node from '../assets/node.png'
 import reactJS from '../assets/react.png'
 import Power from '../assets/power_logo.webp'
 import MongoDB from '../assets/mongo.png'
+import WordPress from '../assets/wordpress.png'
 
 
 const Skills = () => {
@@ -44,8 +45,8 @@ const Skills = () => {
                     <p className='my-4'>Node JS</p>
                 </div>
                 <div className= 'shadow-sm shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto py-1' src={Power} alt='Power Platform icon'></img>
-                    <p className='my-4'>Power Platform</p>
+                    <img className='w-20 mx-auto py-1' src={WordPress} alt='WordPress icon'></img>
+                    <p className='my-4'>WordPress</p>
                 </div>
                 <div className= 'shadow-sm shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto py-1' src={MongoDB} alt='MongoDB icon'></img>
