@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio_react/static/css/main.8f47957b.css",
-    "main.js": "/portfolio_react/static/js/main.beb8d0ea.js",
+    "main.js": "/portfolio_react/static/js/main.f193851a.js",
     "static/media/my-pic.png": "/portfolio_react/static/media/my-pic.9b630210c30af9d8ef18.png",
     "static/media/chat-bg.jpg": "/portfolio_react/static/media/chat-bg.54b76b9e9782ab48d673.jpg",
     "static/media/phofifthavenue.png": "/portfolio_react/static/media/phofifthavenue.3958bd63b8036e8c945d.png",
@@ -11,14 +11,14 @@
     "static/media/mongo.png": "/portfolio_react/static/media/mongo.2a1528ddc31d4ce8518d.png",
     "static/media/html.png": "/portfolio_react/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/tailwind.png": "/portfolio_react/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/wordpress.png": "/portfolio_react/static/media/wordpress.11ed091523e3152b651f.png",
     "static/media/javascript.png": "/portfolio_react/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
-    "static/media/power_logo.webp": "/portfolio_react/static/media/power_logo.10832046a4d3fcffb19e.webp",
     "index.html": "/portfolio_react/index.html",
     "main.8f47957b.css.map": "/portfolio_react/static/css/main.8f47957b.css.map",
-    "main.beb8d0ea.js.map": "/portfolio_react/static/js/main.beb8d0ea.js.map"
+    "main.f193851a.js.map": "/portfolio_react/static/js/main.f193851a.js.map"
   },
   "entrypoints": [
     "static/css/main.8f47957b.css",
-    "static/js/main.beb8d0ea.js"
+    "static/js/main.f193851a.js"
   ]
 }
