@@ -1,14 +1,14 @@
-import Navbar from "./components/Navbar";
-import Home from "./components/Home"
-import About from './components/About'
-import Skills from './components/Skills'
-import Work from './components/Work'
-import Contact from './components/Contact'
+import Navbar from "./components/navbar/navbar.component";
+import Home from "./components/home/home.component"
+import About from './components/about/about.component'
+import Skills from './components/skills/skills.component'
+import Work from './components/work/work.component'
+import Contact from './components/contact/contact.componen'
 
 
 function App() {
   return (
-    <div>
+    <div className="relative">
      <Navbar />
      <Home />
      <About />

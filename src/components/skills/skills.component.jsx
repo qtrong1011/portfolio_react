@@ -1,17 +1,12 @@
 import React from 'react'
-import HTML from '../assets/html.png'
-import Tailwind from '../assets/tailwind.png'
-import Python from '../assets/python.png'
-import JS from '../assets/javascript.png'
-import Node from '../assets/node.png'
-import reactJS from '../assets/react.png'
-import MongoDB from '../assets/mongo.png'
-import WordPress from '../assets/wordpress.png'
+import SkillsItem from '../skills-item/skills-item.component'
+import { skillItems } from '../../data/skills-data'
 
 
 const Skills = () => {
+
   return (
-    <div name='skills' className='w-full h-screen bg-[#435334] text-[#FAF1E4]'>
+    <div name='skills' className=' w-full h-full bg-[#435334] text-[#FAF1E4]'>
         {/* Container */}
         <div className='max-w-[1000px] px-8 mx-auto flex flex-col justify-center w-full h-full '>
             <div>
@@ -23,7 +18,12 @@ const Skills = () => {
                 </p>
             </div>
             <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
-                <div className= 'shadow-sm shadow-[#040c16] hover:scale-110 duration-500'>
+                {
+                    skillItems.map((item) => {
+                        return <SkillsItem key={item.id} item={item} />
+                    })
+                }
+                {/* <div className= 'shadow-sm shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto py-1' src={HTML} alt='HTML icon'></img>
                     <p className='my-4'>HTML</p>
                 </div>
@@ -54,7 +54,7 @@ const Skills = () => {
                 <div className= 'shadow-sm shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto py-1' src={Python} alt='Python icon'></img>
                     <p className='my-4'>Python</p>
-                </div>
+                </div> */}
             </div>
         </div>
 
