@@ -16,13 +16,9 @@ const About = () => {
                     <div className='sm:text-right text-4xl font-bold '>
                     <TypeAnimation 
                             sequence={[
-                                1000,
                                 'Hi. I\'m Trong, nice to meet you. Please take a look around.',
-                                3000,
-                                ''
                             ]}
                             speed={50}
-                            repeat={Infinity}
                     />
                         
 
