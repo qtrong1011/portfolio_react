@@ -74,7 +74,7 @@ const Navbar = () => {
                         <a href='https://github.com/qtrong1011' target='_blank' rel='noreferrer'><FaGithub size={25}/></a>
                     </li>
                     <li>
-                        <a href='https://drive.google.com/file/d/1mmt2Qdtog9kFlMdX-l5hJQFmzfPZ7vDn/view?usp=drive_link' target='_blank' rel='noreferrer'><HiOutlineUserCircle size={25}/></a>
+                        <a href='https://drive.google.com/file/d/1M4om09goN7NCa-NvkntFdPD-tuClDlyH/view?usp=drive_link' target='_blank' rel='noreferrer'><HiOutlineUserCircle size={25}/></a>
                     </li>
 
 
