@@ -134,7 +134,7 @@ const Navbar = () => {
                     </li> */}
                     <li
                         className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69] '>
-                        <a className='flex justify-between items-center w-full text-[#FAF1E4]' href='https://drive.google.com/file/d/1mmt2Qdtog9kFlMdX-l5hJQFmzfPZ7vDn/view?usp=drive_link' target='_blank' rel='noreferrer'>Resume
+                        <a className='flex justify-between items-center w-full text-[#FAF1E4]' href='https://drive.google.com/file/d/1M4om09goN7NCa-NvkntFdPD-tuClDlyH/view?usp=drive_link' target='_blank' rel='noreferrer'>Resume
                             <HiOutlineUserCircle size={30}/></a>
                     </li>
                 </ul>
